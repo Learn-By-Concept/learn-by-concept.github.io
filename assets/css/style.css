@@ -1291,3 +1291,7 @@ section {
   justify-content: center;
   height: 100%; /* Ou une hauteur spécifique, si vous préférez */
 }
+
+.privacy {
+  margin: 10%;
+}
