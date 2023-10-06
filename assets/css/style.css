@@ -1268,3 +1268,26 @@ section {
     padding: 5px 0;
   }
 }
+
+#video-section {
+  width: 100%; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  overflow: hidden; /* cache les parties de la vidéo qui débordent des bords arrondis */
+  border-radius: 40px; /* à ajuster selon vos besoins */
+}
+
+#video {
+  width: 30%; 
+  height: auto; 
+  object-fit: contain;
+  border-radius: 40px; /* vous pouvez ajuster cette valeur selon vos besoins */
+}
+
+.footer-contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Ou une hauteur spécifique, si vous préférez */
+}
